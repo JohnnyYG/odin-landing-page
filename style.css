@@ -3,13 +3,11 @@ body {
     margin: 0;
 }
 
-.top{
-    background-color: #1F2937;
-}
-
 header, .hero{
-    margin-left: 200px;
-    margin-right: 200px;
+    padding-left:200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    background-color: #1F2937;
 }
 
 header {
@@ -51,14 +49,21 @@ button {
     justify-content: space-between;
 }
 
+.hero-content{
+    width: 480px;
+}
+
 .hero-title {
     color: #F9FAF8;
     font-weight: 900;
-    font-size: 48px;;
+    font-size: 48px;
+    line-height: 90%;
+    margin-bottom: 8px;
 }
 
 .hero-text{
     color: #E5E7EB;
+    margin-bottom: 16px;
 }
 
 .hero-button {
@@ -71,7 +76,7 @@ button {
     color: white;
     margin-bottom:10px;
     display: flex;
-    flex-basis: 500px;
+    flex-basis: 550px;
     align-items: center;
     justify-content: center;
 }
