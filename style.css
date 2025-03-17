@@ -58,12 +58,12 @@ button {
     font-weight: 900;
     font-size: 48px;
     /* line-height: 90%; */
-    margin-bottom: 8px;
+    padding-bottom: 8px;
 }
 
 .hero-text{
     color: #E5E7EB;
-    margin-bottom: 16px;
+    padding-bottom: 16px;
 }
 
 .hero-button {
@@ -74,7 +74,6 @@ button {
 .hero-image {
     background-color: grey;
     color: white;
-    margin-bottom:10px;
     display: flex;
     flex-basis: 500px;
     align-items: center;
@@ -84,7 +83,8 @@ button {
 .information-title{
     font-size: 36px;
     font-weight: 900;
-    margin-bottom: 32px;
+    padding-bottom: 18px;
+    padding-top: 18px;
     text-align: center;
 }
 
@@ -93,18 +93,19 @@ button {
     justify-content: center;
     gap: 52px;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .info-image{
     width: 150px;
-    height: 150px;
-    border: 2.5px solid #3882F6;
+    height: 120px;
+    border: 3px solid #3882F6;
     border-radius: 8px;
     margin-bottom: 10px;
 }
 
 .info {
-    max-width: 200px;
+    max-width: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
