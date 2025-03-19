@@ -126,7 +126,6 @@ button {
     color: #1F2937;
     display: flex;
     justify-content: center;
-    
 }
 
 .quote-author {
@@ -140,11 +139,29 @@ button {
 .call-to-action {
     background-color: #3882F6;
     display: flex;
-    flex-direction: center;
-    flex-basis: 500px;
+    margin: 50px 100px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px
+}
+
+.call-to-action-title {
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.call-to-action-text {
+    color: white;
+    font-size: 18px;
 }
 
 .call-to-action-button {
     background-color: #3882F6;
+    color: white;
+    border: 3px solid white;
+    border-radius: 8px;
 }
 
