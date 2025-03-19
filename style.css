@@ -165,3 +165,13 @@ button {
     border-radius: 8px;
 }
 
+.footer{
+    height: 72px;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
