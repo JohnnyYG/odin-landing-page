@@ -11,3 +11,7 @@ There appears to be 6 different containers:
 4. Testimonial
 5. Call to Action
 6. Footer
+
+# Preview
+
+To see the site go to: [Preview](https://johnnyyg.github.io/odin-landing-page/).
